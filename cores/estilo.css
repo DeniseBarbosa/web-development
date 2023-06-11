@@ -1,0 +1,12 @@
+h1{
+    background-color: orange;
+}
+h2{
+    background-color:  rgb(180, 255, 0);
+}
+h3{
+    background-color: rgba(255, 0, 0, .2);
+}
+.hsl{
+    background-color: hsl(120, 100%, 80%);
+}
