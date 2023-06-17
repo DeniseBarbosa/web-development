@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/posicionamento/estilo.css">
+</head>
+<body>
+  <!-- Static vem por padrão no fluxo html -->
+  <div>Static</div>
+  <div class="sticky1">Posicionamento Sticky, <span>Uma mistura de posição relativa com  fixado</span></div>
+  <div>Static</div>
+
+  <div class="relativa relativa-alterada">Posicionamento Relativo 1
+    <!-- O posicionamento absoluto teria um melhor aproveitamento nessa situação  -->
+    <div class="absoluta">Posicionamento Absoluto 1</div>
+  </div>
+  <div>Static</div>
+  <p>Este é o meu parágrafo</p>
+  <div class="sticky2">Posicionamento Sticky, <span>Uma mistura de posição relativa com  fixado</span></div>
+  <div>Static</div>
+  <div>Static</div>
+ 
+  <div class="relativa">Posicionamento Relativo 2
+    <div class="absoluta">Posicionamento Absoluto 2 </div>
+  </div>
+
+
+   <!-- Nesse caso aqui que o posicionamento está solto a classe absoluto sobrepoe a outra div uma ficando em cima da outra  -->
+  <div class="absoluta">Posicionamento Absoluto 3</div>
+  <div class="fixo">Posicionamento fixado, <span>ideal para menus fixados</span></div>
+  
+
+</body>
+</html>

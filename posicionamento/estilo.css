@@ -1,0 +1,63 @@
+/* Isso aqui foi necessario para podermos acompanhar o posicionamento fixo ser aplicado  */
+html{
+  padding-bottom: 1000px;
+}
+
+div{
+ height: 50px;
+ background-color: wheat;
+ border: 1px solid black; 
+ padding: 10px;
+}
+/* Posicionamento Relativo */
+.relativa{
+  position: relative;
+  background-color: brown;
+  color: antiquewhite;
+}
+.relativa-alterada{
+  top: 20px;
+  left: 20px;
+}
+/* Posicionamento Absoluto  */
+.absoluta{
+  background-color: purple;
+  color: wheat;
+  height: 30px;
+  width: 100px;
+  position: absolute; 
+  top: 20px;
+  right: 100px;
+}
+span{
+  color: black;
+  font-weight: bold;
+}
+.fixo{
+  background-color: rgb(221, 15, 128);
+  color: wheat;
+  width: 150px;
+  height: 50px;
+  position: fixed; 
+  top: 10px;
+  left: 100px;
+  
+}
+.sticky1{
+  background-color: yellow;
+  width: 200px;
+  height: 50px;
+  position: sticky;
+  top: 10px;
+  left: 270px;
+
+}
+.sticky2{
+  background-color: rgb(68, 223, 68);
+  width: 200px;
+  height: 50px;
+  position: sticky;
+  top: 10px;
+  left: 490px;
+
+}
