@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgb(7, 7, 8); 
+  height: 100vh; 
+}
+nav{
+  display: flex;
+  justify-content: center;
+  /* alinhamento dos elementos  */
+  align-items: center;
+  gap: 50px;
+  height: 20%;
+}
+nav > a{
+  color: aliceblue;
+  text-decoration: none;
+  border: 1px solid rgb(58, 71, 61);
+  border-radius: 50px;
+  padding: 10px 60px;
+  
+}
+nav > a:hover{
+  background-color: rgb(226, 142, 47);
+  color: black;
+  font-weight: bold;
+}
+section{
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: brown;
+  
+}
+section > div{
+  display: flex; 
+  align-items: center;
+  /* vai fazer com que os itens fiquem em coluna  */
+  flex-flow: column;
+  padding: 30px;
+  margin: 50px 0px;
+  border-radius: 20px;
+  border: 1px solid orange;
+  background-color: rgb(53, 192, 180);
+}
+section > div > img{
+  width: 50px;
+}
+section > div > p {
+  margin-top: 40px;
+ 
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-flow: column; 
+  padding: 40px;
+  
+}
+footer > div {
+  color: rgb(14, 91, 233);
+  font-size: 32px;
+  font-weight: bold;
+}
+footer > p{
+  color: rgb(14, 91, 233);
+  font-size:12px ;
+}
